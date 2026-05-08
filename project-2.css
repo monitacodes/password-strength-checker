@@ -1,0 +1,73 @@
+/* background and centering content */
+body {
+    background: #d4b5a5;
+    font-family: sans-serif;
+    text-align: center; 
+}
+.card {
+    background: rgb(230, 218, 194);
+    width: 900px;
+    height: 600px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 4px solid orange;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pass-wrapper {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.pass-wrapper input {
+    margin-bottom: 0;
+}
+
+/*styling for the Show/Hide toggle button */
+#showBtn {
+    width: auto;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+/* THE BAR: Container and Filler */
+.progress-container {
+    background: #c8bbbb;
+    height: 10px;
+}
+
+#strengthBar {
+    height: 100%;
+    width: 0%;
+    background: red;
+    transition: 0.3s;
+}
+
+/* RULES */
+.rules-grid {
+    list-style:disc;
+    padding: 0;
+    text-align: left; 
+}
+
+.met {
+    color: green;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    background: #ccc;
+    padding: 10px;
+    border: none;
+}
+/* -- Highlights the button when security clearance is 100% met --- */
+.unlocked {
+    background: orange;
+    color: white;
+}
